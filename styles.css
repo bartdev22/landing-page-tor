@@ -81,6 +81,7 @@ h1{
 #information-section h2{
     font-size: 36px;
     justify-self: center;
+    color: #1F2937;
 }
 .information-images{
     flex: 1;
@@ -101,7 +102,18 @@ h1{
 #quote{
     padding: 60px 120px;
     background-color: #e5e7eb;
+    text-align: center;
 }
+blockquote{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/*Styles for the Call to action*/
+
+
 
 /*Styles for the Footer*/
 
