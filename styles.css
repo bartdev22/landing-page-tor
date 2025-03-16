@@ -74,6 +74,8 @@ h1{
     display: flex;
     margin: 10px;
     font-size: 18px;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 #information-section h2{
@@ -81,6 +83,7 @@ h1{
     justify-self: center;
 }
 .information-images{
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -90,6 +93,7 @@ h1{
     max-width: 100%;
     border: #3882F6 solid;
     border-radius: 10%;
+    aspect-ratio: 1;
 }
 
 /*Styles for Information section*/
