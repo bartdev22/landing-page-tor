@@ -113,7 +113,30 @@ blockquote{
 
 /*Styles for the Call to action*/
 
-
+#call-to-action{
+    background-color: #3882F6;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    margin: 20px 10%;
+    padding: 5px 25px;
+    border-radius: 7px;
+}
+#call-to-action div{
+    flex: 1;
+    padding: 20px 40px;
+    color: #F9FAF8; 
+}
+button{
+    border: #F9FAF8 solid 3px;
+    background-color: #3882F6;
+    color: #F9FAF8; 
+    font-weight: 700;
+    padding: 5px 25px;
+    border-radius: 7px;
+    justify-self: right;
+    margin-left: 50px;
+}
 
 /*Styles for the Footer*/
 
